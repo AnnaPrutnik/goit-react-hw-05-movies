@@ -1,0 +1,9 @@
+.movieTitle {
+  display: table;
+  width: auto;
+
+  padding: 15px;
+  letter-spacing: 2px;
+  border: 2px solid #cbdcea;
+  color: #394671;
+}

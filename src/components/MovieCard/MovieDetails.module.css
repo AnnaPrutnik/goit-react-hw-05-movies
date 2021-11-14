@@ -1,0 +1,53 @@
+.movieCard {
+  padding: 10px;
+  display: flex;
+}
+.cardPoster {
+  width: 350px;
+  height: auto;
+}
+.cardInfo {
+  padding: 30px;
+}
+
+.genreList {
+  display: flex;
+}
+.genreItem {
+  margin-right: 10px;
+}
+.infoWrapper {
+  padding: 15px;
+}
+.InfoList {
+  padding: 15px;
+  display: flex;
+}
+
+.infoLink {
+  font-size: 24px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 20px 30px;
+  margin-left: 10px;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  background-color: lavender;
+}
+
+.btn {
+  background-color: lavender;
+  cursor: pointer;
+  margin: 15px;
+  padding: 10px 15px;
+  color: #5757a0;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  color: #7272f8;
+}
