@@ -14,7 +14,7 @@ const SearchForm = ({ onSubmit }) => {
       alert('No search query');
       return;
     }
-    onSubmit(query);
+    onSubmit(query.trim());
     navigate(`${location.pathname}?query=${query}`);
   };
 
