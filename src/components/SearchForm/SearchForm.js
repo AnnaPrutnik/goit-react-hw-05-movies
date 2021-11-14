@@ -10,6 +10,10 @@ const SearchForm = ({ onSubmit }) => {
 
   const handleClickSearch = e => {
     e.preventDefault();
+    if (query.trim() === '') {
+      alert('No search query');
+      return;
+    }
     onSubmit(query);
     navigate(`${location.pathname}?query=${query}`);
   };
